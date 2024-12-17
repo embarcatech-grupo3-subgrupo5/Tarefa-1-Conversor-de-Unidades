@@ -1,0 +1,8 @@
+# Arquivos de compilação
+build/
+*.o
+*.exe
+*.out
+# Arquivos temporários
+*.swp
+*.log
