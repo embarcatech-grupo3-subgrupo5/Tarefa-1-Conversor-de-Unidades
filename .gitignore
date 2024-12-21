@@ -6,3 +6,5 @@ build/
 # Arquivos temporários
 *.swp
 *.log
+# Diretório do vsCode
+.vscode/
