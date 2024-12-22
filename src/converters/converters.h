@@ -1,0 +1,1 @@
+double converter_tempo(double valor, char unidade_origem[], char unidade_destino[]);

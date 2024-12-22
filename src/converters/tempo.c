@@ -1,4 +1,5 @@
 #include <string.h>
+#include "converters.h"
 
 // os valores que podem ser passados na origem e destino são: ms, s, min, h, d
 double converter_tempo(double valor, char unidade_origem[], char unidade_destino[]) {
