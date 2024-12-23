@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar e Executar",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "${workspaceFolder}/src/cli/main.c",
+                "${workspaceFolder}/src/converters/temperatura.c",
+                "-o",
+                "${workspaceFolder}/src/cli/output/main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compilando o projeto."
+        },
+        {
+            "label": "Executar",
+            "type": "shell",
+            "command": "${workspaceFolder}/src/cli/output/main.exe",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
