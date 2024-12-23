@@ -7,7 +7,7 @@ double celsius_para_fahrenheit(double celsius)
 
 double celsius_para_kelvin(double celsius)
 {
-    return celsius + 273;
+    return celsius + 273.15;
 }
 
 double fahrenheit_para_celsius(double fahrenheit)
@@ -22,7 +22,7 @@ double fahrenheit_para_kelvin(double fahrenheit)
 
 double kelvin_para_celsius(double kelvin)
 {
-    return kelvin - 273;
+    return kelvin - 273.15;
 }
 
 double kelvin_para_fahrenheit(double kelvin)
