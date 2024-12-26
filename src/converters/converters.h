@@ -109,3 +109,41 @@ double horas_para_segundos(double h);
  * @param horas Entrada com o tempo em horas
 */
 double horas_para_minutos(double h);
+
+/////////////////////////////////////////////////
+
+/**
+ * @brief Metro para Centímetro
+ * @param metros Entrada com a medida em metros
+ */
+double metro_para_centimetro(double metros);
+
+/**
+ * @brief Metro para Milímetro
+ * @param metros Entrada com a medida em metros
+ */
+double metro_para_milimetro(double metros);
+
+/**
+ * @brief Centímetro para Metro
+ * @param centimetros Entrada com a medida em centímetros
+ */
+double centimetro_para_metro(double centimetros);
+
+/**
+ * @brief Centímetro para Milímetro
+ * @param centimetros Entrada com a medida em centímetros
+ */
+double centimetro_para_milimetro(double centimetros);
+
+/**
+ * @brief Milímetro para Metro
+ * @param milimetros Entrada com a medida em milímetros
+ */
+double milimetro_para_metro(double milimetros);
+
+/**
+ * @brief Milímetro para Centímetro
+ * @param milimetros Entrada com a medida em milímetros
+ */
+double milimetro_para_centimetro(double milimetros);
