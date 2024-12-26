@@ -70,4 +70,4 @@ double grama_para_tonelada(double grama);
  * @brief Tonelada para Grama
  * @param tonelada Entrada com a massa em tonelada
  */
-double tonela_para_grama(double tonelada);
+double tonelada_para_grama(double tonelada);
