@@ -109,3 +109,11 @@ double horas_para_segundos(double h);
  * @param horas Entrada com o tempo em horas
 */
 double horas_para_minutos(double h);
+
+/**
+ * @brief Converte entre diferentes unidades de armazenamento.
+ * @param valor Valor a ser convertido.
+ * @param tipo_original Tipo da unidade original (1 = Bits, 2 = Bytes, ..., 6 = Terabytes).
+ * @param tipo_convertido Tipo da unidade convertida (1 = Bits, 2 = Bytes, ..., 6 = Terabytes).
+ */
+double converter_armazenamento(double valor, int tipo_original, int tipo_convertido);
