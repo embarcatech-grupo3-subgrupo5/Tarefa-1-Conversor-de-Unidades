@@ -105,7 +105,7 @@ double minutos_para_horas(double m);
 double horas_para_segundos(double h);
 
 /**
- * @brief Horas para Segundos
+ * @brief Horas para Minutos
  * @param horas Entrada com o tempo em horas
 */
 double horas_para_minutos(double h);
