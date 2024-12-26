@@ -71,3 +71,41 @@ double grama_para_tonelada(double grama);
  * @param tonelada Entrada com a massa em tonelada
  */
 double tonela_para_grama(double tonelada);
+
+/////////////////////////////////////////////////
+
+/**
+ * @brief Segundos para Minutos
+ * @param segundos Entrada com o tempo em segundos
+*/
+double segundos_para_minutos(double s);
+
+/**
+ * @brief Segundos para Horas
+ * @param segundos Entrada com o tempo em segundos
+*/
+double segundos_para_horas(double s);
+
+/**
+ * @brief Minutos para Segundos
+ * @param minutos Entrada com o tempo em minutos
+*/
+double minutos_para_segundos(double m);
+
+/**
+ * @brief Minutos para Horas
+ * @param minutos Entrada com o tempo em minutos
+*/
+double minutos_para_horas(double m);
+
+/**
+ * @brief Horas para Segundos
+ * @param horas Entrada com o tempo em horas
+*/
+double horas_para_segundos(double h);
+
+/**
+ * @brief Horas para Segundos
+ * @param horas Entrada com o tempo em horas
+*/
+double horas_para_minutos(double h);
