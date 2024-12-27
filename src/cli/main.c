@@ -96,6 +96,7 @@ void menu_massa() {
 }
 
 void menu_tempo() {
+
     int opcao;
     double entrada, resultado;
 
@@ -142,6 +143,53 @@ void menu_tempo() {
     }
 }
 
+void menu_comprimento() {
+    int opcao;
+    double entrada, resultado;
+
+    printf("\nEscolha a conversao de comprimento:\n");
+    printf("1. Metro para Centimetro\n");
+    printf("2. Metro para Milimetro\n");
+    printf("3. Centimetro para Metro\n");
+    printf("4. Centimetro para Milimetro\n");
+    printf("5. Milimetro para Metro\n");
+    printf("6. Milimetro para Centimetro\n");
+    printf("Escolha: ");
+    scanf("%d", &opcao);
+
+    printf("Digite o valor a ser convertido: ");
+    scanf("%lf", &entrada);
+
+    switch (opcao) {
+        case 1:
+            resultado = metro_para_centimetro(entrada);
+            printf("Resultado: %.2lf Centimetro\n", resultado);
+            break;
+        case 2:
+            resultado = metro_para_milimetro(entrada);
+            printf("Resultado: %.2lf Milimetro\n", resultado);
+            break;
+        case 3:
+            resultado = centimetro_para_metro(entrada);
+            printf("Resultado: %.2lf Metro\n", resultado);
+            break;
+        case 4:
+            resultado = centimetro_para_milimetro(entrada);
+            printf("Resultado: %.2lf Milimetro\n", resultado);
+            break;
+        case 5:
+            resultado = milimetro_para_metro(entrada);
+            printf("Resultado: %.2lf Metro\n", resultado);
+            break;
+        case 6:
+            resultado = milimetro_para_centimetro(entrada);
+            printf("Resultado: %.2lf Centimetro\n", resultado);
+            break;
+        default:
+            printf("Opcao invalida.\n");
+    }
+}
+
 int main() {
     int categoria, continuar;
 
@@ -161,6 +209,9 @@ int main() {
         scanf("%d", &categoria);
 
         switch (categoria) {
+            case 1:
+                menu_comprimento();
+                break;
             case 2:
                 menu_massa();
                 break;
