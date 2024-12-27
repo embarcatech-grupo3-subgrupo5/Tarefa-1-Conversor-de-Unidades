@@ -230,13 +230,10 @@ int main() {
         printf("Escolha uma categoria para converter:\n");
         printf("1. Comprimento\n");
         printf("2. Massa\n");
-        printf("3. Volume\n");
-        printf("4. Temperatura\n");
-        printf("5. Velocidade\n");
-        printf("6. Energia e Potencia\n");
-        printf("7. Area\n");
-        printf("8. Tempo\n");
-        printf("9. Armazenamento\n");
+        printf("3. Temperatura\n");
+        printf("4. Tempo\n");
+        printf("5. Armazenamento\n");
+        printf("6. Velocidade\n"); // Ainda nao implementada
         printf("Escolha: ");
         scanf("%d", &categoria);
 
@@ -247,17 +244,20 @@ int main() {
             case 2:
                 menu_massa();
                 break;
-            case 4:
+            case 3:
                 menu_temperatura();
                 break;
-            case 8:
+            case 4:
                 menu_tempo();
                 break;
-            case 9:
+            case 5:
                 menu_armazenamento();
                 break;
-            default:
+            case 6:
                 printf("Esta categoria ainda nao foi implementada.\n");
+                break;
+            default:
+                printf("Categoria invalida. Tente novamente.\n");
         }
 
         printf("\nDeseja fazer outra conversao? (1-Sim / 0-Nao): ");
