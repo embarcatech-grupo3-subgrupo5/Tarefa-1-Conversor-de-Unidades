@@ -165,3 +165,18 @@ double milimetro_para_metro(double milimetros);
 double milimetro_para_centimetro(double milimetros);
 
 ////////////////////////////////////////////////////
+
+
+
+/**
+ * @brief Converte km/h para m/s
+ * @param kmh Entrada com a velocidade em km/h
+ */
+double kmh_para_ms(double kmh);
+
+/**
+ * @brief Converte m/s para km/h
+ * @param ms Entrada com a velocidade em m/s
+ */
+double ms_para_kmh(double ms);
+
