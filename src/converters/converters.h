@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////
+// Funções de conversão de Temperatura - Feito por Emyle
+
 /**
  * @brief Celsius para Fahrenheit
  * @param celsius Entrada com a temperatura em celsius
@@ -35,6 +38,7 @@ double kelvin_para_celsius(double kelvin);
 double kelvin_para_fahrenheit(double kelvin);
 
 ////////////////////////////////////////////////////
+// Funções de conversão de Massa - Feito por Julierme Chaves
 
 /**
  * @brief Grama para Kilograma
@@ -72,7 +76,8 @@ double grama_para_tonelada(double grama);
  */
 double tonelada_para_grama(double tonelada);
 
-/////////////////////////////////////////////////
+////////////////////////////////////////////////////
+// Funções de conversão de Tempo - Feito por Mario Vinicius
 
 /**
  * @brief Segundos para Minutos
@@ -110,7 +115,8 @@ double horas_para_segundos(double h);
 */
 double horas_para_minutos(double h);
 
-/////////////////////////////////////////////////
+////////////////////////////////////////////////////
+// Funções de conversão de Unidades de Armazenamento - Feito por Alexandre
 
 /**
  * @brief Converte entre diferentes unidades de armazenamento.
@@ -120,7 +126,7 @@ double horas_para_minutos(double h);
  */
 double converter_armazenamento(double valor, int tipo_original, int tipo_convertido);
 
-/////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 /**
  * @brief Metro para Centímetro
@@ -157,3 +163,5 @@ double milimetro_para_metro(double milimetros);
  * @param milimetros Entrada com a medida em milímetros
  */
 double milimetro_para_centimetro(double milimetros);
+
+////////////////////////////////////////////////////
