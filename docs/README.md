@@ -5,15 +5,24 @@ Este repositório contém o projeto colaborativo de um programa em C para conver
 
 ## Funcionalidades
 O programa oferece as seguintes conversões:
-1. **Unidades de Comprimento**: metro, centímetro, milímetro.
-2. **Unidades de Massa**: quilograma, grama, tonelada.
-3. **Unidades de Volume**: litro, mililitro, metros cúbicos.
-4. **Unidades de Temperatura**: Celsius, Fahrenheit, Kelvin.
-5. **Unidades de Velocidade**: km/h, m/s, mph.
-6. **Energia e Potência**: Watts (W), quilowatts (kW), cavalos-vapor (cv ou hp).
-7. **Unidades de Área**: metro quadrado, centímetro quadrado.
-8. **Unidades de Tempo**: segundos, minutos, horas.
-9. **Unidades de Armazenamento**: bits, bytes, kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).
+
+1. **Unidades de Comprimento**: metro, centímetro, milímetro.  
+   *Implementado por*: Mario Vinicius.
+
+2. **Unidades de Massa**: quilograma, grama, tonelada.  
+   *Implementado por*: Julierme Chaves.
+
+3. **Unidades de Temperatura**: Celsius, Fahrenheit, Kelvin.  
+   *Implementado por*: Emyle.
+
+4. **Unidades de Tempo**: segundos, minutos, horas.  
+   *Implementado por*: Mario Vinicius.
+
+5. **Unidades de Armazenamento**: bits, bytes, kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).  
+   *Implementado por*: Alexandre.
+
+6. **Unidades de Velocidade** (ainda será implementada): km/h, m/s, mph.  
+   *Será implementado por*: Everton.
 
 ## Organização do Projeto
 - **Líder**: Gerencia o repositório, revisa pull requests e resolve conflitos.
