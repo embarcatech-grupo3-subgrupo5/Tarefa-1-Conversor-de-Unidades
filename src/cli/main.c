@@ -190,6 +190,38 @@ void menu_comprimento() {
     }
 }
 
+void menu_armazenamento() {
+    int tipo_original, tipo_convertido;
+    double valor, resultado;
+
+    printf("\nEscolha a unidade de armazenamento de origem:\n");
+    printf("1. Bits\n");
+    printf("2. Bytes\n");
+    printf("3. Kilobytes (KB)\n");
+    printf("4. Megabytes (MB)\n");
+    printf("5. Gigabytes (GB)\n");
+    printf("6. Terabytes (TB)\n");
+    printf("Escolha: ");
+    scanf("%d", &tipo_original);
+
+    printf("\nEscolha a unidade de armazenamento para conversao:\n");
+    printf("1. Bits\n");
+    printf("2. Bytes\n");
+    printf("3. Kilobytes (KB)\n");
+    printf("4. Megabytes (MB)\n");
+    printf("5. Gigabytes (GB)\n");
+    printf("6. Terabytes (TB)\n");
+    printf("Escolha: ");
+    scanf("%d", &tipo_convertido);
+
+    printf("\nDigite o valor a ser convertido: ");
+    scanf("%lf", &valor);
+
+    resultado = converter_armazenamento(valor, tipo_original, tipo_convertido);
+
+    printf("\nResultado: %.10lf na unidade escolhida.\n", resultado);
+}
+
 int main() {
     int categoria, continuar;
 
@@ -221,6 +253,9 @@ int main() {
             case 8:
                 menu_tempo();
                 break;
+            case 9:
+                menu_armazenamento();
+                break;
             default:
                 printf("Esta categoria ainda nao foi implementada.\n");
         }
@@ -234,4 +269,3 @@ int main() {
 
     return 0;
 }
-
