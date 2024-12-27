@@ -95,6 +95,53 @@ void menu_massa() {
     }
 }
 
+void menu_tempo() {
+    int opcao;
+    double entrada, resultado;
+
+    printf("\nEscolha a conversao de tempo:\n");
+    printf("1. Segundos para Minutos\n");
+    printf("2. Segundos para Horas\n");
+    printf("3. Minutos para Segundos\n");
+    printf("4. Minutos para Horas\n");
+    printf("5. Horas para Segundos\n");
+    printf("6. Horas para Minutos\n");
+    printf("Escolha: ");
+    scanf("%d", &opcao);
+
+    printf("Digite o valor a ser convertido: ");
+    scanf("%lf", &entrada);
+
+    switch (opcao) {
+        case 1:
+            resultado = segundos_para_minutos(entrada);
+            printf("Resultado: %.2lf Minutos\n", resultado);
+            break;
+        case 2:
+            resultado = segundos_para_horas(entrada);
+            printf("Resultado: %.2lf Horas\n", resultado);
+            break;
+        case 3:
+            resultado = minutos_para_segundos(entrada);
+            printf("Resultado: %.2lf Segundos\n", resultado);
+            break;
+        case 4:
+            resultado = minutos_para_horas(entrada);
+            printf("Resultado: %.2lf Horas\n", resultado);
+            break;
+        case 5:
+            resultado = horas_para_segundos(entrada);
+            printf("Resultado: %.2lf Segundos\n", resultado);
+            break;
+        case 6:
+            resultado = horas_para_minutos(entrada);
+            printf("Resultado: %.2lf Minutos\n", resultado);
+            break;
+        default:
+            printf("Opcao invalida.\n");
+    }
+}
+
 int main() {
     int categoria, continuar;
 
@@ -119,6 +166,9 @@ int main() {
                 break;
             case 4:
                 menu_temperatura();
+                break;
+            case 8:
+                menu_tempo();
                 break;
             default:
                 printf("Esta categoria ainda nao foi implementada.\n");
