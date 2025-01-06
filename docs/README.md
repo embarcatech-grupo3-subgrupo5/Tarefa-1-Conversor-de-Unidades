@@ -53,7 +53,7 @@ Cada desenvolvedor deve criar um branch para sua tarefa no formato: `feature/<no
    ```
 3. Compile o programa:
    ```bash
-   gcc -o conversor main.c
+   gcc -o conversor src/cli/main.c src/converters/massa.c src/converters/temperatura.c src/converters/tempo.c src/converters/comprimento.c src/converters/armazenamento.c
    ```
 4. Execute o programa:
    ```bash
@@ -63,7 +63,7 @@ Cada desenvolvedor deve criar um branch para sua tarefa no formato: `feature/<no
      Siga as instruções exibidas no terminal para selecionar o tipo de conversão desejada e insira os valores conforme solicitado.
 
 7. Encerramento:
-     Para sair do programa, selecione a opção correspondente no menu principal.
+     Para sair do programa, basta cancelar a continuidade da execução de operações de conversão
    
 ## Contribuição
 1. Faça um fork deste repositório.
@@ -71,7 +71,7 @@ Cada desenvolvedor deve criar um branch para sua tarefa no formato: `feature/<no
    ```bash
    git checkout -b feature/<nome-da-tarefa>
    ```
-3. Faça as alterações e commits.
+3. Faça as alterações e commits necessários.
 4. Envie as alterações para seu fork:
    ```bash
    git push origin feature/<nome-da-tarefa>
@@ -80,7 +80,7 @@ Cada desenvolvedor deve criar um branch para sua tarefa no formato: `feature/<no
 
 ## Checklist de Desenvolvimento
 - [ ] Implementar todas as conversões.
-- [ ] Escrever comentários no código para melhor entendimento.
-- [ ] Garantir commits regulares e mensagens descritivas.
-- [ ] Realizar testes básicos para cada funcionalidade.
-- [ ] Atualizar este arquivo README.md com instruções de uso.
+- [X] Escrever comentários no código para melhor entendimento.
+- [X] Garantir commits regulares e mensagens descritivas.
+- [X] Realizar testes básicos para cada funcionalidade.
+- [X] Atualizar este arquivo README.md com instruções de uso.
